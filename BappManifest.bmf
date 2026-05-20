@@ -1,0 +1,12 @@
+Uuid: 5c99cf1016306c7d0c8770a8a53ccdf6
+ExtensionType: 1
+Name: Neda Software Vulnerability Scanner
+RepoName: neda-vulners-scanner
+ScreenVersion: 1.5.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: True
+Author: Neda
+ShortDescription: Software vulnerability scanner based on Vulners.com audit API
+EntryPoint: target/neda-vulners-scanner-1.5.0.jar
+BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
